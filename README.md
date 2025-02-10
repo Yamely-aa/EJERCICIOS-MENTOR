@@ -9,4 +9,5 @@ Sitio web en PC:
 
 Sitio web en Celular:
 
-![image](https://github.com/user-attachments/assets/86901047-66f3-4331-8f75-a8ea824068a7)
+![Celu](https://github.com/user-attachments/assets/2a7b885b-3de3-42a9-aa86-21ea06995bf5)
+
