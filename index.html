@@ -3,32 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000; /* Black normalito */
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.1); 
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      text-align: center;
+      max-width: 400px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Circular */
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ffffff;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    li {
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+      text-align: center;
+      padding: 10px 20px;
+      border: 2px solid #ffffff;
+      border-radius: 8px;
+      width: 120px;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    a:hover {
+      background-color: #ebf448; /* Yellow bonito*/
+      transform: translateY(-5px);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+      color: #ffffff;
+    }
   </style>
 </head>
+
 <body>
+  <div class="content-box">
+    <img src="social-links-profile-main/assets/images/Yamely.jpg" alt="Profile Picture">
+    <h1>Yamely Abregú</h1>
+    <p>Lima, Peru</p>
+    <p>"Web developer passionate about technology and learning."</p>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <h2>My social networks:</h2>
+    <ul>
+      <li><a href="https://github.com/Yamely-aa" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/yamely-abreg%C3%BA-sotelo-7861a4331/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://x.com/265Yam" target="_blank">X</a></li>
+      <li><a href="https://www.instagram.com/yamely_aa/" target="_blank">Instagram</a></li>
+    </ul>
   </div>
 </body>
 </html>
